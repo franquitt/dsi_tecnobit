@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Agregar solicitud de mantenimiento | POLOC</title>
+	<link rel="stylesheet" type="text/css" href="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/base.css">
+	<link rel="stylesheet" type="text/css" href="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/forms.css">
+
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/a"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/jquery_002.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/jquery.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/core.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/RelatedObjectLookups.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/actions.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/urlify.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/prepopulate.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/xregexp.js"></script>
+	<script type="text/javascript" src="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/calendar.js"></script>
+
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Agregar%20solicitud%20de%20mantenimiento%20|%20Administraci%C3%B3n%20de%20sitio%20Django_archivos/responsive.css">
+
+	<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+<body class=" app-polocApp model-solicitudmantenimiento change-form" data-admin-utc-offset="-10800">
+
+	<!-- Container -->
+	<div id="container">
+
+		<!-- Header -->
+		<div id="header">
+			<div id="branding">
+
+				<h1 id="site-name"><a href="http://127.0.0.1:8000/admin/">POLOC</a></h1>
+
+			</div>
+
+			<div id="user-tools">
+
+				Bienvenido/a,
+				<strong>franco</strong>.
+
+				<a href="http://127.0.0.1:8000/">Ver sitio</a> /
+
+				<a href="http://127.0.0.1:8000/admin/password_change/">Cambiar contraseña</a> /
+
+				<a href="http://127.0.0.1:8000/admin/logout/">Cerrar sesión</a>
+
+			</div>
+
+		</div>
+		<!-- END Header -->
+
+		<div class="breadcrumbs">
+			<a href="http://127.0.0.1:8000/admin/">Inicio</a> › <a href="http://127.0.0.1:8000/admin/polocApp/">Polocapp</a> › <a href="http://127.0.0.1:8000/admin/polocApp/solicitudmantenimiento/">Solicitudes de mantenimiento</a> › Agregar solicitud de mantenimiento
+		</div>
+
+		<!-- Content -->
+		<div id="content" class="colM">
+
+			<h1>Agregar solicitud de mantenimiento</h1>
+			<div id="content-main">
+
+				<form enctype="multipart/form-data" action="" method="post" id="solicitudmantenimiento_form" novalidate="">
+					<input type="hidden" name="csrfmiddlewaretoken" value="2tTvkMFPaDKc9AqT4nveEvSbdJkt6NpnLHnP9yR8clRhOoVQB93TwJbNif0veCIj">
+					<div>
+
+						<fieldset class="module aligned ">
+
+							<div class="form-row field-proyecto">
+
+								<div>
+
+									<label class="required" for="id_proyecto">Proyecto:</label>
+
+									<div class="related-widget-wrapper">
+										<select name="proyecto" id="id_proyecto" required="">
+											<option value="">---------</option>
+
+											<option value="1" selected="selected">Software 1</option>
+
+											<option value="2">Software 2</option>
+
+										</select>
+
+										<br>
+										<br>
+										<br>
+
+										<style>
+											.frantabla {
+												padding: 15px;
+												text-align: left;
+												border: 1px solid black;
+											}
+										</style>
+
+										<table style="margin-left: 150px; border: 1px solid black;">
+											<tr class="frantabla">
+												<td class="frantabla">Nombre del Proyecto</td>
+												<td class="frantabla">Nombre clave</td>
+												<td class="frantabla">Aplicación y versión</td>
+												<td class="frantabla">Lider</td>
+												<td class="frantabla">Jefe</td>
+											</tr>
+											<tr class="frantabla">
+												<td class="frantabla">Soft 1</td>
+												<td class="frantabla">Contadores 4</td>
+												<td class="frantabla">Mejor producto(V1.5.4)</td>
+												<td class="frantabla">Juan Carlos</td>
+												<td class="frantabla">Agustin Maders</td>
+											</tr>
+										</table>
+										<br>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-nombre">
+
+								<div>
+
+									<label class="required" for="id_nombre">Nombre de la Solicitud:</label>
+
+									<input type="text" name="nombre" id="id_nombre" maxlength="70" required="" class="vTextField">
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-fechaNecesidad">
+
+								<div>
+
+									<label class="required" for="id_fechaNecesidad">Fecha Necesidad:</label>
+
+									<input type="text" name="fechaNecesidad" id="id_fechaNecesidad" size="10" class="vDateField" value="12/06/2019">
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-descripcion">
+
+								<div>
+
+									<label class="required" for="id_descripcion">Descripcion:</label>
+
+									<input type="text" name="descripcion" id="id_descripcion" maxlength="250" required="" class="vTextField">
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-tipo">
+
+								<div>
+
+									<label class="required" for="id_tipo">Tipo de Solicitud:</label>
+
+									<div class="related-widget-wrapper">
+										<select name="tipo" id="id_tipo" required="">
+											<option value="">---------</option>
+
+											<option value="1" selected="selected">Nuevo requerimiento</option>
+
+											<option value="2">Correctivo</option>
+
+											<option value="3">Cambio</option>
+
+										</select>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-criticidad">
+
+								<div>
+
+									<label class="required" for="id_criticidad">Criticidad:</label>
+
+									<div class="related-widget-wrapper">
+										<select name="criticidad" id="id_criticidad" required="">
+											<option value="">---------</option>
+
+											<option value="5">Crítico</option>
+
+											<option value="6" selected="selected">Bloqueante</option>
+
+											<option value="7">Medio</option>
+
+											<option value="8">Deseado</option>
+
+										</select>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="form-row field-archivosAdjuntos">
+
+								<div>
+
+									<label class="required" for="id_archivosAdjuntos">Archivos Adjuntos:</label>
+
+									<input type="file" name="archivosAdjuntos" id="id_archivosAdjuntos" required="">
+
+								</div>
+
+							</div>
+
+							
+
+						</fieldset>
+
+						<div class="submit-row">
+							<input type="submit" value="Cancelar" name="_continue" style="background: #c87979;">
+							<input type="submit" value="Confirmar" class="default" name="_save">
+						</div>
+
+					</div>
+				</form>
+			</div>
+
+			<br class="clear">
+		</div>
+		<!-- END Content -->
+
+		<div id="footer"></div>
+	</div>
+	<!-- END Container -->
+
+	<div style="display: none; position: absolute;" class="calendarbox module" id="calendarbox0">
+		<div><a href="#" class="calendarnav-previous">&lt;</a><a href="#" class="calendarnav-next">&gt;</a></div>
+		<div id="calendarin0" class="calendar">
+			<table>
+				<caption>Junio 2019</caption>
+				<tbody>
+					<tr>
+						<th>D</th>
+						<th>L</th>
+						<th>M</th>
+						<th>M</th>
+						<th>J</th>
+						<th>V</th>
+						<th>S</th>
+					</tr>
+					<tr>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class=""><a href="#">1</a></td>
+					</tr>
+					<tr>
+						<td class=""><a href="#">2</a></td>
+						<td class=""><a href="#">3</a></td>
+						<td class=""><a href="#">4</a></td>
+						<td class=""><a href="#">5</a></td>
+						<td class=""><a href="#">6</a></td>
+						<td class=""><a href="#">7</a></td>
+						<td class=""><a href="#">8</a></td>
+					</tr>
+					<tr>
+						<td class=""><a href="#">9</a></td>
+						<td class=""><a href="#">10</a></td>
+						<td class=""><a href="#">11</a></td>
+						<td class="today"><a href="#">12</a></td>
+						<td class=""><a href="#">13</a></td>
+						<td class=""><a href="#">14</a></td>
+						<td class=""><a href="#">15</a></td>
+					</tr>
+					<tr>
+						<td class=""><a href="#">16</a></td>
+						<td class=""><a href="#">17</a></td>
+						<td class=""><a href="#">18</a></td>
+						<td class=""><a href="#">19</a></td>
+						<td class=""><a href="#">20</a></td>
+						<td class=""><a href="#">21</a></td>
+						<td class=""><a href="#">22</a></td>
+					</tr>
+					<tr>
+						<td class=""><a href="#">23</a></td>
+						<td class=""><a href="#">24</a></td>
+						<td class=""><a href="#">25</a></td>
+						<td class=""><a href="#">26</a></td>
+						<td class=""><a href="#">27</a></td>
+						<td class=""><a href="#">28</a></td>
+						<td class=""><a href="#">29</a></td>
+					</tr>
+					<tr>
+						<td class=""><a href="#">30</a></td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+						<td class="nonday"> </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="calendar-shortcuts"><a href="#">Ayer</a>&nbsp;|&nbsp;&nbsp;|&nbsp;<a href="#">Mañana</a></div>
+		<p class="calendar-cancel"><a href="#">Cancelar</a></p>
+	</div>
+</body>
+
+</html>
